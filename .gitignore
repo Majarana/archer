@@ -1,0 +1,12 @@
+.vscode/settings.json
+archer/obj/archer.csproj.nuget.dgspec.json
+archer/obj/archer.csproj.nuget.g.props
+archer/obj/archer.csproj.nuget.g.targets
+archer/obj/project.assets.json
+archer/obj/project.nuget.cache
+archer/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+archer/obj/Debug/net8.0/archer.AssemblyInfo.cs
+archer/obj/Debug/net8.0/archer.AssemblyInfoInputs.cache
+archer/obj/Debug/net8.0/archer.assets.cache
+archer/obj/Debug/net8.0/archer.GeneratedMSBuildEditorConfig.editorconfig
+archer/obj/Debug/net8.0/archer.GlobalUsings.g.cs

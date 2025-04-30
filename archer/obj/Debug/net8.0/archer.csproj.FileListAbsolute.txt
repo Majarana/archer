@@ -1,0 +1,15 @@
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\bin\Debug\net8.0\archer.exe
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\bin\Debug\net8.0\archer.deps.json
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\bin\Debug\net8.0\archer.runtimeconfig.json
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\bin\Debug\net8.0\archer.dll
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\bin\Debug\net8.0\archer.pdb
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.AssemblyInfoInputs.cache
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.AssemblyInfo.cs
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.csproj.CoreCompileInputs.cache
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.sourcelink.json
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.dll
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\refint\archer.dll
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.pdb
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\archer.genruntimeconfig.cache
+D:\CSHARP2\CSHARP2-KURZ\archer\archer\archer\obj\Debug\net8.0\ref\archer.dll
