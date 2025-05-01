@@ -9,6 +9,7 @@ namespace archer
     {
         string Name { get; set; }
         int NumberOfArrows { get; set; }
+        private bool isName = false;
 
         public Archer(string name, int numberOfArrows)
         {
@@ -29,14 +30,33 @@ namespace archer
             }
         }
         public void AddArrows(int number)
-        {
-            NumberOfArrows = NumberOfArrows + number;
-            Console.WriteLine(number == 1 ? $"{NumberOfArrows} arrow was added. Now {Name} has got {NumberOfArrows} arrow in total. " : $"{NumberOfArrows} arrows were added! Now {Name} has got {NumberOfArrows} arrows in total.");
+        { 
+            while (number < 0) 
+            {
+                Console.WriteLine("Please enter a positive number.");
+                number= int.Parse(Console.ReadLine());
+            }
+
+            if (number == 0)
+            {
+                Console.WriteLine($"{number} arrows were added.");
+                ViewStatus();
+            }
+            else
+            {
+                NumberOfArrows = NumberOfArrows + number;
+                Console.WriteLine(number == 1 ? $"{number} arrow was added." : $"{number} arrows were added!");
+                ViewStatus();
+            }
         }
         public void ViewStatus()
         {
-            Console.WriteLine($"Archer´s name is {Name}!");
-            Console.WriteLine($"{Name} has got {NumberOfArrows} arrows in total!");
+            if (!isName)
+            {
+                Console.WriteLine($"Archer´s name is {Name}!");
+                isName = true;
+            }
+            Console.WriteLine($"{Name} has got {NumberOfArrows} arrow{(NumberOfArrows == 1 ? "" : "s")} in total.");
         }
     }
 }

@@ -49,7 +49,7 @@ class Program
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Wrong option. Please try again and choose valid option from menu");
+                    Console.WriteLine("Wrong option. Please try again and choose valid option from menu.");
                     break;
             }
         }
