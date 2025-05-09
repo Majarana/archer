@@ -59,11 +59,12 @@ class Program
         int result;
         while (!int.TryParse(challenge, out result) || result < 0)
         {
-            Console.WriteLine("Please enter a positive integer number greater than 0");
+            Console.WriteLine("Please enter a positive integer number.");
             challenge = Console.ReadLine();
         }
         return result;
     }
+
     public static string LoadStringFromConsole(string name)
     {
         while (string.IsNullOrWhiteSpace(name) || int.TryParse(name, out _))

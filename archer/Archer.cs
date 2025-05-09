@@ -30,23 +30,15 @@ namespace archer
             }
         }
         public void AddArrows(int number)
-        { 
-            while (number < 0) 
+        {
+            if (number > 0)
             {
-                Console.WriteLine("Please enter a positive number.");
-                number= int.Parse(Console.ReadLine());
-            }
-
-            if (number == 0)
-            {
-                Console.WriteLine($"{number} arrows were added.");
-                ViewStatus();
+                NumberOfArrows = NumberOfArrows + number;
+                Console.WriteLine($"{number} arrows were added. Archer have {NumberOfArrows} now.");
             }
             else
             {
-                NumberOfArrows = NumberOfArrows + number;
-                Console.WriteLine(number == 1 ? $"{number} arrow was added." : $"{number} arrows were added!");
-                ViewStatus();
+                Console.WriteLine($"You can add positive number of arrows.");
             }
         }
         public void ViewStatus()
